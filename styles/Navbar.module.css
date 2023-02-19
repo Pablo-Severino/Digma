@@ -1,0 +1,15 @@
+.nav {
+  width: 100vw;
+  height: 48px;
+  color: #333333;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #ffffff;
+}
+
+.function1 {
+  position: absolute;
+  width: 13.8vw;
+  height: 6.7vh;
+  display: flex;
+  align-items: center;
+}

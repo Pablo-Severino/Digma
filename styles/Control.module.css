@@ -1,0 +1,10 @@
+.container {
+  position: absolute;
+  width: 50vw;
+  height: 19vh;
+  top: 34rem;
+  left: 26rem;
+  border-radius: 2rem;
+  border: 1px solid #b783ea;
+  background-color: #c7a7e1;
+}
