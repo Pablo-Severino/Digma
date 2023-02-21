@@ -8,8 +8,149 @@
 
 .function1 {
   position: absolute;
-  width: 13.8vw;
+  width: 212px;
   height: 6.7vh;
   display: flex;
   align-items: center;
+}
+
+.menu {
+  width: 3.5rem;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down1 {
+  margin-left: -0.3rem;
+}
+
+.timer {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vote {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.templates {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comments {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.function2 {
+  position: absolute;
+  width: 48.5vw;
+  height: 6.7vh;
+  display: flex;
+  left: 26.5vw;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.function2 span {
+  color: #757575;
+}
+
+.function2 span:hover {
+  color: #000000;
+}
+
+.function2 p {
+  padding-left: 0.5rem;
+}
+
+.down2 {
+  margin-left: 0.5vw;
+}
+
+.function3 {
+  position: relative;
+  width: 24.1vw;
+  height: 6.7vh;
+  left: 75.8vw;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.share {
+  width: 56px;
+  height: 31px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "inter";
+  border: transparent;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #9747ff;
+}
+
+.zoomin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoomout {
+  display: flex;
+  align-items: center;
+  justify-content: cente
+}
+
+.zoom {
+  width: 126px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.4rem;
+  margin-right: 0.50rem;
+}
+
+.percent {
+  width: 126px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Inter";
+
+  border: transparent;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  background-color: transparent;
 }

@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <React.Fragment>
       <Head>
         <meta name="description" content="" />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
       </Head>
       <Component {...pageProps} />
     </React.Fragment>

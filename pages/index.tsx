@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <div className={styled.background}>
         <ReactFlow>
-          <Background size={1.5} color='#e6e6e6' />
+          <Background size={4} gap={33} color='#d7d6d6' />
         </ReactFlow>
       </div>
       <Controls />

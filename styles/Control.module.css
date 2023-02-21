@@ -1,10 +1,47 @@
 .container {
   position: absolute;
-  width: 50vw;
-  height: 19vh;
-  top: 34rem;
-  left: 26rem;
-  border-radius: 2rem;
-  border: 1px solid #b783ea;
-  background-color: #c7a7e1;
+  width: 54vw;
+  height: 11vh;
+  top: 38rem;
+  left: 23vw;
+  border-radius: 1rem;
+  border: 1px solid #d5d4d4;
+  background-color: #ffffff;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cursor {
+  border-top-left-radius: 1rem;
+  background-color: #9747ff;
+}
+
+.hand {
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #e6e6e6;
+  fill: #000c;
+}
+
+.design {
+  width: 29.6vw;
+  height: 10.8vh;
+  display: flex;
+  align-items: center;
+  margin-left: 2.7rem;
+  margin-top: -4.8rem;
+  gap: 1.5rem;
+}
+
+.maker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  filter: drop-shadow(0px -5px 24px rgba(0,0,0,.08)) drop-shadow(0px -2px 10px rgba(0,0,0,.04)) drop-shadow(0px -1px 4px rgba(0,0,0,.08));
 }
