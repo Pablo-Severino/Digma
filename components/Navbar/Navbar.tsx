@@ -1,16 +1,16 @@
 import Image from 'next/image'
 
-import menu from '../public/navbar/menu.svg'
-import down from '../public/navbar/down.svg'
-import timer from '../public/navbar/timer.svg'
-import vote from '../public/navbar/vote.svg'
-import templates from '../public/navbar/templates.svg'
-import comment from '../public/navbar/comment.svg'
-import avatar from '../public/navbar/avatar.svg'
-import zoomin from '../public/navbar/zoom-in.svg'
-import zoomout from '../public/navbar/zoom-out.svg'
+import menu from '../../public/navbar/menu.svg'
+import down from '../../public/navbar/down.svg'
+import timer from '../../public/navbar/timer.svg'
+import vote from '../../public/navbar/vote.svg'
+import templates from '../../public/navbar/templates.svg'
+import comment from '../../public/navbar/comment.svg'
+import avatar from '../../public/navbar/avatar.svg'
+import zoomin from '../../public/navbar/zoom-in.svg'
+import zoomout from '../../public/navbar/zoom-out.svg'
 
-import styled from '../styles/Navbar.module.css'
+import styled from '../../styles/Navbar.module.css'
 
 function Navbar() {
   return (

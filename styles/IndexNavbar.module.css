@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Whyte';
+  src: local('../fonts/Whyte Book'), local('Whyte-Book'),
+      url('../fonts/Whyte-Book.woff2') format('woff2'),
+      url('../fonts/Whyte-Book.woff') format('woff'),
+      url('../fonts/Whyte-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav {
+  width: 100%;
+  min-height: 42px;
+  font-family: 'Whyte', sans-serif;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 24px 48px;
+  cursor: default;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.auth {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 42px;
+}
+
+.login {
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  color: #000000;
+  cursor: pointer;
+}
+
+.login::after {
+  content: '';
+  position: absolute;
+  bottom: 90.9vh;
+  width: 3vw;
+  height: 3px;
+  display: flex;
+  background: currentcolor;
+  opacity: 1;
+  transform: scaleY(0);
+  transition: transform 250ms ease 0s, opacity 250ms ease 0s;
+  transform-origin: bottom center;
+}
+
+.login:hover::after {
+  transform: scaleX(1);
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 14px 24px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(85, 81, 255);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  transition: 200ms ease 0s;
+}

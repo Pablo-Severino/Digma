@@ -1,3 +1,60 @@
+.main {
+  width: 100vw;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.video1 {
+  display: block;
+  margin: 0px auto;
+  width: 790px;
+  max-width: 100%;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 1.45;
+  letter-spacing: 0em;
+  margin: 0px auto 40px;
+  max-width: 500px;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 14px 24px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Whyte', sans-serif;
+  transition: transform 200ms ease 0s, background 200ms ease 0s;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px auto;
+  background: rgb(85, 81, 255);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  transition: 200ms ease 0s;
+}
+
 .background {
   width: 100vw;
   height: 93vh;
