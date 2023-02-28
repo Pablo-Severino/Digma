@@ -10,10 +10,10 @@ function IndexNavbar() {
     <nav className={styled.nav}>
       <Image src={logo} alt="logo" />
       <div className={styled.auth}>
-        <Link href="/auth/login">
+        <Link href="#login">
           <p className={styled.login}>Log In</p>
         </Link>
-        <Link href="/auth/signup">
+        <Link href="#signup">
           <li className={styled.button}>Get Started</li>
         </Link>
       </div>
