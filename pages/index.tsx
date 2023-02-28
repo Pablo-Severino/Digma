@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import close from '../public/auth/close.svg'
-import google from '../public/auth/google.svg'
+import lgoogle from '../public/auth/google.svg'
 
 import IndexNavbar from '@/components/Navbar/IndexNavbar';
 import IndexFooter from '@/components/Footer/IndexFooter';
@@ -66,7 +66,7 @@ export default function Home() {
                 >
                   <div className={styled.btgoogle}>
                     <span className={styled.googleicon}>
-                      <Image className={styled.svg2} src={google} alt="logo google" />
+                      <Image className={styled.svg2} src={lgoogle} alt="logo google" />
                     </span>
                     <div className={styled.googletext}>Continue with Google</div>
                   </div>
