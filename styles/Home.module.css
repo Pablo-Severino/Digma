@@ -60,10 +60,16 @@ scrollbar-width: none;  /* Firefox */
   height: 93vh;
 }
 
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9vh;
+}
+
 .auth {
   width: 420px;
   height: 510.4px;
-  margin: 9vh 37.5vw;
   padding: 36px 10px;
   border-radius: 8px;
   background-color: #ffffff;
