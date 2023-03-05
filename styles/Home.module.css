@@ -106,8 +106,6 @@ scrollbar-width: none;  /* Firefox */
   height: 48px;
   font-size: 18px;
   line-height: 24px;
-  padding-left: 20px;
-  padding-right: 20px;
   box-sizing: border-box;
   cursor: pointer;
   border-radius: 8px;
@@ -116,6 +114,16 @@ scrollbar-width: none;  /* Firefox */
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 328px;
+  padding: 10px 36px;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.authgoogle:hover {
+  transition: transform .2s;
+  transform: translateY(-2px);
 }
 
 .btgoogle {

@@ -44,39 +44,46 @@
 }
 
 .maker:hover {
-  transform-origin: 50% 50% 0px;
-  user-select: none;
-  touch-action: none;
-  transform: translateX(0px) translateY(-32px) scale(1) translateZ(0px);
+  transform: translateX(0px) translateY(-0.80rem) scale(1) translateZ(0px);
   transition: .2s;
 }
 
 .pencil {
-  margin-bottom: 1.2rem;
+  margin-bottom: -1rem;
   filter: drop-shadow(0px -5px 24px rgba(0,0,0,.08)) drop-shadow(0px -2px 10px rgba(0,0,0,.04)) drop-shadow(0px -1px 4px rgba(0,0,0,.08));;
 }
 
 .up1 {
   margin-left: -0.7vw;
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
+}
+
+.up1:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
 }
 
 .ellipse:hover {
-  transform: translateY(-1.8rem);
+  transform: translateY(-0.80rem);
   transition: 0.2s;
 }
 
 .circle {
-  margin-bottom: 0.5rem;
+  margin-bottom: -1rem;
 }
 
 .up2 {
   margin-left: -0.3vw;
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
+}
+
+.up2:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
 }
 
 .sheets:hover {
-  transform: translateY(-1.8rem);
+  transform: translateY(-0.80rem);
   transition: 0.2s;
 }
 
@@ -87,6 +94,10 @@
 
 .up3 {
   margin-left: -0.1vw;
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
 }
 
+.up3:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+}

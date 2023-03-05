@@ -9,21 +9,30 @@
 .function1 {
   position: absolute;
   width: 212px;
-  height: 6.7vh;
   display: flex;
   align-items: center;
 }
 
 .menu {
   width: 3.5rem;
-  height: 7vh;
+  height: 6.8vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.menu:hover {
+  background-color: #eaeaea80;
+  transition: 0.3s;
+}
+
 .down1 {
   margin-left: -0.3rem;
+}
+
+.down1:hover {
+  transform: translateY(3px);
+  transition: 0.2s;
 }
 
 .timer {
@@ -34,12 +43,22 @@
   justify-content: center;
 }
 
+.timer:hover {
+  background-color: #eaeaea50;
+  transition: 0.3s;
+}
+
 .vote {
   width: 48px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.vote:hover {
+  background-color: #eaeaea50;
+  transition: 0.3s;
 }
 
 .templates {
@@ -50,6 +69,11 @@
   justify-content: center;
 }
 
+.templates:hover {
+  background-color: #eaeaea50;
+  transition: 0.3s;
+}
+
 .comments {
   width: 48px;
   height: 48px;
@@ -58,13 +82,18 @@
   justify-content: center;
 }
 
+.comments:hover {
+  background-color: #eaeaea50;
+  transition: 0.3s;
+}
+
 .function2 {
   position: absolute;
   width: 48.5vw;
-  height: 6.7vh;
-  display: flex;
+  height: 48px;
   left: 26.5vw;
   font-size: 14px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -75,6 +104,7 @@
 
 .function2 span:hover {
   color: #000000;
+  transition: 0.3s;
 }
 
 .function2 p {
@@ -85,10 +115,15 @@
   margin-left: 0.5vw;
 }
 
+.down2:hover {
+  transform: translateY(3px);
+  transition: 0.2s;
+}
+
 .function3 {
   position: relative;
   width: 24.1vw;
-  height: 6.7vh;
+  height: 48px;
   left: 75.8vw;
   gap: 1rem;
   display: flex;

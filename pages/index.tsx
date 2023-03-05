@@ -9,10 +9,10 @@ import IndexFooter from "@/components/Footer/IndexFooter";
 
 import { useState } from "react";
 import { supabase } from "./../lib/supabaseClient";
+import { FormEvent } from "react";
 
 import styled from "../styles/Home.module.css";
 import "reactflow/dist/style.css";
-import { FormEvent } from "react";
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -20,13 +20,11 @@ export default function Home() {
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
-  const [error, setError] = useState(null)
-  const [success, setSuccess] = useState(false)
 
   const handleSignup = async (e: FormEvent) => {
     e.preventDefault()
     try {
-     const { data, error } = await supabase.auth.signUp({
+     await supabase.auth.signUp({
       email,
       password,
      })
@@ -83,20 +81,20 @@ export default function Home() {
               </span>
             </button>
             <div>
-              <form onSubmit={handleSignup} className={styled.form}>
-                <button
-                  onClick={signInWithGoogle}
-                  className={styled.authgoogle}
-                >
-                  <div className={styled.btgoogle}>
-                    <span className={styled.googleicon}>
-                      <Image className={styled.svg2} src={lgoogle} alt="logo google" />
-                    </span>
-                    <div className={styled.googletext}>
-                      Continue with Google
-                    </div>
+              <button
+                onClick={signInWithGoogle}
+                className={styled.authgoogle}
+              >
+                <div className={styled.btgoogle}>
+                  <span className={styled.googleicon}>
+                    <Image className={styled.svg2} src={lgoogle} alt="logo google" />
+                  </span>
+                  <div className={styled.googletext}>
+                    Continue with Google
                   </div>
-                </button>
+                </div>
+              </button>
+              <form onSubmit={handleSignup} className={styled.form}>
                 <span className={styled.or}>or</span>
                 <input
                   className={styled.email}
